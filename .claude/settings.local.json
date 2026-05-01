@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__plugin_claude-mem_mcp-search__get_observations",
+      "mcp__plugin_claude-mem_mcp-search__smart_outline",
+      "Skill(firecrawl-scrape)",
+      "WebFetch(domain:gregoryduane.com)",
+      "WebFetch(domain:www.tomfordfashion.com)",
+      "WebFetch(domain:www.kennethcole.com)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}
