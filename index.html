@@ -1,101 +1,191 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head><meta charset="utf-8">
-<meta http-equiv="x-ua-compatible" content="ie=edge">    
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--Code Framework-->      
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.2.3/motion-ui.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation-prototype.min.css">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet" type="text/css"> 
-<!--Site CSS-->
-<link href="gregoryduane.css" rel="stylesheet">      
-<title>Gregory Duane - Men's Fashion and Consultation</title></head>
-<title>Gregory Duane - Men's Fashion and Consultation</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gregory Duane — Bespoke Tailoring &amp; Handmade Footwear</title>
+  <meta name="description" content="Gregory Duane offers bespoke custom suits, handmade shoes, and bridal attire. New York. By appointment only. Call (646) 516-2664.">
+  <link rel="icon" href="images/gregory-duane-favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
-<header>
-<div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
-  <button title="menu-icon" type="button" data-toggle="example-menu"></button>
-  <div class="title-bar-title"><span class="nav-img"><img alt="Gregory Duane Logo" src="images/Gregory-Duane_white_high-res-resized-for-banner.png" /></span></div>
-</div>
-<div class="header-banner"><img alt="Gregory Duane mobile logo" src="images/Gregory-Duane_white_high-res-resized-for-banner.png" />  </div>
-<div class="top-bar" id="example-menu">
-  <div class="top-bar-left">
-    <ul class="dropdown menu" data-dropdown-menu>
-      <li>
-        <a href="#">Custom Clothing</a>
-      </li>
-      <li><a href="#">Ready to Wear Suits</a></li>
-      <li><a href="#">Handmade Shoes</a></li>  
-      <li><a href="#">Blog</a></li>
-	  <li><a href="#">About Us</a></li>
-    </ul>
-  </div> 
-  
-</div>	
-</header>
-<div class="grid-container">
-<div class="grid-x grid-margin-x">
-<div class="cell large-auto">
-<div class="hero-section">
-  <div class="hero-section-text">
-    <h1><img src="images/GD-initials-logo.png" alt="Gregory Duane Logo with Initials" /></h1>
-	<p class="text-center">Welcome to Gregory Duane, your gateway to impeccable custom clothing. Explore our curated collection of custom suite and shirt fabrics, and handmade shoes, designed to elevate your style to new heights. Each piece is meticulously crafted to your unique measurements and preferences, ensuring a flawless fit nd unmatched comfort. Discover the epitome of luxury in every thread adn experience the joy of owning custom attire that truly reflects your individuality.</p>
+
+  <!-- Announcement Bar -->
+  <div class="announce-bar">
+    Bespoke. By Appointment Only.&nbsp;&nbsp;·&nbsp;&nbsp;<a href="tel:6465162664">(646) 516-2664</a>
   </div>
-</div>    
-</div></div>
-<section class="home-about-section">
-<div class="grid-container">
-<div class="grid-x grid-margin-x clearfix">
-<div class="cell large-5">
-<h3>About Gregory Duane</h3>
-<p>Gregory Duane is where craftsmanship meets legacy, and every thread weaves a story of sophistication and style. Our journey begins with the heart and soul of our brand, Duane Glover, the visionary behind Gregory Duane, and a man whose roots define the very essence of our luxury label.</p>
-</div>
-<div class="cell large-5 float-right">
-<img src="images/IMG_3985.jpeg" alt="Vintage picture of tailor looking at a suit"/>
-</div>
-</div>
-</div>   
-</section>
-</div>    
-<footer>
-<div class="grid-container">
-<div class="grid-x grid-margin-x">
-<div class="cell medium-3">
-<img src="images/Gregory-Duane_white_high-res-resized-for-banner.png" alt="Gregory Duane Logo" />
-</div>
-<div class="cell medium-3">
-<ul class="vertical-menu accordion-menu" data-accordion-menu>
-<li>
-        <a href="#">Clothing</a>
-        <ul class="menu vertical nested">
-           <li><a href="">Schedule an Appointment</a></li> 
-           <li><a href="">Custom Suit Packages</a></li>
-           <li><a href="">Ready to Wear Suits</a></li>
-           <li><a href="">Wedding Packages</a></li>
+
+  <!-- Navigation -->
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <div class="nav-left">
+        <div class="has-dropdown">
+          <a href="#">Men</a>
+          <ul class="dropdown-menu">
+            <li><a href="custom-suits.html">Bespoke Suits</a></li>
+            <li><a href="ready-to-wear-suits.html">Ready to Wear</a></li>
+            <li><a href="handmade-shoes.html">Handmade Shoes</a></li>
+            <li><a href="tuxedos.html">Tuxedos</a></li>
+          </ul>
+        </div>
+        <div class="has-dropdown">
+          <a href="#">Women</a>
+          <ul class="dropdown-menu">
+            <li><a href="wedding-dresses.html">Wedding Dresses</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <a class="nav-logo" href="index.html" aria-label="Gregory Duane home">
+        <img src="images/Gregory-Duane_white_high-res.png" alt="Gregory Duane" />
+      </a>
+
+      <div class="nav-right">
+        <a href="gallery.html">Gallery</a>
+        <a href="about-us.html">About</a>
+        <a href="mailto:Gregoryduaneservice@gregoryduane.com" class="nav-cta">Book a Consultation</a>
+        <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" aria-hidden="true">
+      <div class="has-dropdown">
+        <a href="#">Men</a>
+        <ul class="dropdown-menu">
+          <li><a href="custom-suits.html">Bespoke Suits</a></li>
+          <li><a href="ready-to-wear-suits.html">Ready to Wear</a></li>
+          <li><a href="handmade-shoes.html">Handmade Shoes</a></li>
+          <li><a href="tuxedos.html">Tuxedos</a></li>
         </ul>
-      </li>
-      <li><a href="#">Ready to Wear Suits</a></li>
-    <li><a href="#">Handmade Shoes</a></li>  
-</ul>
-</div>
-<div class="cell medium-3">
-<ul class="vertical-menu">
-<li><a href="#">Blog</a></li>
-<li><a href="#">About Us</a></li>
-</ul>
-</div>
-<div class="cell medium-3">
-<p class="text-center">Click below for a consultation</p>
-<p class="text-center"><button class="button">Consult with Us!</button></p>
-</div>
-</div>
-    </div>    
-</footer>
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.2.3/motion-ui.min.js"></script>
-<script>
-$(document).foundation();    
-</script>
-    </body>
+      </div>
+      <div class="has-dropdown">
+        <a href="#">Women</a>
+        <ul class="dropdown-menu">
+          <li><a href="wedding-dresses.html">Wedding Dresses</a></li>
+        </ul>
+      </div>
+      <a href="gallery.html">Gallery</a>
+      <a href="about-us.html">About</a>
+      <a href="mailto:Gregoryduaneservice@gregoryduane.com" class="btn-ghost">Book a Consultation</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <img src="images/pexels-the-lazy-artist-gallery-1300550.jpg" alt="Gregory Duane bespoke suit editorial" />
+    <div class="hero-overlay">
+      <div class="hero-signature">Gregory Duane</div>
+      <div class="hero-rule"></div>
+      <p class="hero-subtitle">Bespoke Tailoring&nbsp;&nbsp;·&nbsp;&nbsp;Handmade Footwear&nbsp;&nbsp;·&nbsp;&nbsp;Bridal</p>
+      <a href="custom-suits.html" class="btn-ghost">Explore the Collection</a>
+    </div>
+  </section>
+
+  <!-- Brand Statement -->
+  <section class="section">
+    <div class="container">
+      <div class="brand-statement">
+        <span class="label-caps" style="color:var(--gold);display:block;margin-bottom:24px;">Est. New York</span>
+        <h2 class="display">Where craftsmanship<br>meets legacy.</h2>
+        <div class="divider" style="margin-top:32px;"></div>
+        <p>Gregory Duane is built on the belief that clothing should be an extension of your personality — meticulously crafted to your unique measurements, your life, and your legacy. Every piece begins with a conversation and ends with a statement.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Categories -->
+  <section style="padding:0 var(--page-margin) var(--section-gap);">
+    <div style="max-width:var(--max-width);margin:0 auto;">
+      <div class="grid-3">
+        <a href="custom-suits.html" class="card">
+          <img src="images/pexels-terje-sollie-298863.jpg" alt="Bespoke Suits" />
+          <div class="card-overlay">
+            <span class="card-label">Men</span>
+            <span class="card-title">Bespoke Suits</span>
+          </div>
+        </a>
+        <a href="handmade-shoes.html" class="card">
+          <img src="images/ruthson-zimmerman-Ws4wd-vJ9M0-unsplash.jpg" alt="Handmade Shoes" />
+          <div class="card-overlay">
+            <span class="card-label">Men</span>
+            <span class="card-title">Handmade Shoes</span>
+          </div>
+        </a>
+        <a href="tuxedos.html" class="card">
+          <img src="images/ivan-zhukevich-7ZC4qO3Gj6g-unsplash.jpg" alt="Bridal" />
+          <div class="card-overlay">
+            <span class="card-label">Bridal</span>
+            <span class="card-title">Tuxedos &amp; Gowns</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ready to Wear Feature -->
+  <section class="rtw-feature">
+    <div class="rtw-feature-inner">
+      <img src="images/max-andrey-4YWwPsTQfMs-unsplash.jpg" alt="Ready to Wear Suits" class="rtw-feature-img" />
+      <div class="rtw-feature-content">
+        <span class="label-caps">Ready to Wear</span>
+        <h2 class="headline-lg">Premium Suits,<br>Ready When You Are.</h2>
+        <p>Not every moment calls for a months-long bespoke journey. Our ready-to-wear collection pairs the aesthetic rigor of Gregory Duane craftsmanship with the immediacy of available stock — expertly designed silhouettes, premium fabrics, no waiting.</p>
+        <a href="ready-to-wear-suits.html" class="btn-ghost">Shop Ready to Wear</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Editorial Pull Quote -->
+  <section class="editorial-quote">
+    <p class="pull-quote">"In a world of fast fashion, we chose the longer road — the one that leads to a garment that fits not just your body, but your life."</p>
+    <span class="attribution">— Duane Glover, Founder</span>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-logo">
+        <img src="images/Gregory-Duane_white_high-res.png" alt="Gregory Duane" />
+        <p class="footer-tagline">Bespoke tailoring, handmade footwear, and bridal atelier. New York. By appointment only.</p>
+      </div>
+      <div>
+        <p class="footer-heading">Men</p>
+        <ul class="footer-links">
+          <li><a href="custom-suits.html">Bespoke Suits</a></li>
+          <li><a href="ready-to-wear-suits.html">Ready to Wear</a></li>
+          <li><a href="handmade-shoes.html">Handmade Shoes</a></li>
+          <li><a href="tuxedos.html">Tuxedos</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-heading">Women</p>
+        <ul class="footer-links">
+          <li><a href="wedding-dresses.html">Wedding Dresses</a></li>
+        </ul>
+        <p class="footer-heading" style="margin-top:32px;">Explore</p>
+        <ul class="footer-links">
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer-heading">Consultation</p>
+        <div class="footer-contact">
+          <p><a href="tel:6465162664">(646) 516-2664</a></p>
+          <p><a href="mailto:Gregoryduaneservice@gregoryduane.com">Gregoryduaneservice@gregoryduane.com</a></p>
+          <p style="margin-top:12px;">Open by appointment · All days</p>
+        </div>
+        <a href="mailto:Gregoryduaneservice@gregoryduane.com" class="btn-primary">Book a Consultation</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Gregory Duane. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="nav.js"></script>
+</body>
 </html>
