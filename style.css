@@ -722,6 +722,29 @@ body {
   transition: color 0.2s;
 }
 .product-card:hover .product-name { color: var(--gold); }
+.product-card { overflow: hidden; }
+.product-price {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin-top: 4px;
+}
+.shoe-collection-section {
+  padding: var(--section-gap) var(--page-margin);
+  text-align: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.shoe-collection-section .product-grid {
+  margin-top: 48px;
+  text-align: left;
+}
+.shoe-collection-section .product-card img {
+  width: 95%;
+  display: block;
+  margin: 0 auto;
+}
 
 /* 21. Masonry Gallery */
 .masonry {
