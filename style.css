@@ -722,7 +722,56 @@ body {
   display: block;
 }
 
-/* 20. Product Grid (RTW) */
+/* 19b. Nav Book Link */
+.nav-book {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+  transition: color 0.2s;
+}
+.nav-book:hover { color: var(--white); }
+
+/* 20. Featured RTW Section */
+.featured-rtw { text-align: center; }
+.featured-rtw-header { margin-bottom: 48px; }
+.featured-rtw-header .headline-lg { margin-bottom: 16px; }
+.featured-rtw-header p { color: var(--muted); max-width: 560px; margin: 0 auto; line-height: 1.75; }
+.product-grid--4 { grid-template-columns: repeat(4, 1fr); }
+.featured-rtw-cta { margin-top: 48px; }
+
+/* 20b. Book Feature Section */
+.book-feature {
+  background: var(--black);
+  padding: var(--section-gap) var(--page-margin);
+}
+.book-feature-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 80px;
+  align-items: center;
+}
+.book-cover {
+  width: 100%;
+  display: block;
+  box-shadow: 0 24px 64px rgba(0,0,0,0.6);
+}
+.book-feature-content p { color: var(--muted); line-height: 1.75; }
+.book-author {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold) !important;
+  margin-top: 12px;
+}
+
+/* 21. Product Grid (RTW) */
 .product-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -912,7 +961,9 @@ footer {
   .steps-grid { grid-template-columns: 1fr 1fr; }
   .masonry { columns: 2; }
   .product-grid { grid-template-columns: repeat(2, 1fr); }
+  .product-grid--4 { grid-template-columns: repeat(2, 1fr); }
   .rtw-feature-inner { grid-template-columns: 1fr 1fr; gap: 40px; }
+  .book-feature-inner { grid-template-columns: 240px 1fr; gap: 48px; }
 }
 
 @media (max-width: 768px) {
@@ -927,6 +978,8 @@ footer {
   .intro-section .intro-img { order: -1; }
   .about-story { grid-template-columns: 1fr; }
   .rtw-feature-inner { grid-template-columns: 1fr; }
+  .book-feature-inner { grid-template-columns: 1fr; text-align: center; }
+  .book-cover { max-width: 220px; margin: 0 auto; }
   .grid-3 { grid-template-columns: 1fr; }
   .grid-2 { grid-template-columns: 1fr; }
   .steps-grid { grid-template-columns: 1fr; }
