@@ -29,7 +29,9 @@
         </button>
         <a href="../gallery/">Gallery</a>
         <a href="../about-us/">About</a>
-        <a href="https://gregoryduane.com/contact" target="_blank" rel="noopener">Contact</a>
+        <button class="nav-trigger" data-panel="mega-support" aria-expanded="false" aria-controls="mega-support">
+          Support <span class="nav-chevron" aria-hidden="true">&#9662;</span>
+        </button>
         <a href="https://www.amazon.com/How-Match-without-being-Matchy-Matchy/dp/B0F93TBL3Z" class="nav-book" target="_blank" rel="noopener">Buy the Book</a>
         <a href="../appointment-form/" class="nav-cta">Book a Consultation</a>
         <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
@@ -63,6 +65,25 @@
             <div class="mega-col-label">Formal</div>
             <a class="mega-link" href="../tuxedos/">Tuxedos</a>
             <p class="mega-sub">Black tie &amp; bridal</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Support Mega Panel -->
+    <div class="mega-panel" id="mega-support" aria-hidden="true">
+      <button class="mega-close" aria-label="Close support menu">&#215;</button>
+      <div class="mega-inner">
+        <div class="mega-grid-support">
+          <div class="mega-col">
+            <div class="mega-col-label">Policies</div>
+            <a class="mega-link" href="../purchase-agreement/">Purchase Agreement</a>
+            <p class="mega-sub">Terms of sale &amp; non-refundable purchase policy</p>
+          </div>
+          <div class="mega-col">
+            <div class="mega-col-label">Delivery</div>
+            <a class="mega-link" href="../shipping-returns/">Shipping &amp; Returns</a>
+            <p class="mega-sub">Delivery timelines &amp; return policy</p>
           </div>
         </div>
       </div>
@@ -111,13 +132,19 @@
       </div>
       <a href="../gallery/">Gallery</a>
       <a href="../about-us/">About</a>
-      <a href="https://gregoryduane.com/contact" target="_blank" rel="noopener">Contact</a>
+      <div class="has-dropdown">
+        <a href="#">Support</a>
+        <ul class="dropdown-menu">
+          <li><a href="../purchase-agreement/">Purchase Agreement</a></li>
+          <li><a href="../shipping-returns/">Shipping &amp; Returns</a></li>
+        </ul>
+      </div>
       <a href="../appointment-form/" class="btn-ghost">Book a Consultation</a>
     </div>
   </nav>
 
   <div class="page-hero" style="height:40vh;">
-    <img src="../images/pexels-the-lazy-artist-gallery-1300550.jpg" alt="Gregory Duane gallery" />
+    <img src="../images/hero-customer.jpg" alt="Gregory Duane customer gallery" />
     <div class="page-hero-overlay">
       <span class="page-hero-label">Gregory Duane</span>
       <h1 class="page-hero-title">Gallery</h1>
@@ -127,21 +154,44 @@
   <section style="padding:var(--section-gap) var(--page-margin);">
     <div style="max-width:var(--max-width);margin:0 auto;">
       <div class="masonry">
-        <img src="../images/pexels-terje-sollie-298863.jpg" alt="Bespoke suit" />
-        <img src="../images/pexels-anders-kristensen-447570.jpg" alt="Tailored look" />
-        <img src="../images/ruthson-zimmerman-Ws4wd-vJ9M0-unsplash.jpg" alt="Handmade shoes" />
-        <img src="../images/pexels-the-lazy-artist-gallery-1303866.jpg" alt="Craftsmanship" loading="lazy" />
-        <img src="../images/bruce-mars-S8ffHr_dxHo-unsplash.jpg" alt="Editorial style" loading="lazy" />
-        <img src="../images/yasamine-june-iV08-pfH2NQ-unsplash.jpg" alt="Bridal" loading="lazy" />
-        <img src="../images/yasamine-june-SLipZqBFLHU-unsplash.jpg" alt="Bridal fashion" loading="lazy" />
-        <img src="../images/ivan-zhukevich-7ZC4qO3Gj6g-unsplash.jpg" alt="Formal wear" loading="lazy" />
-        <img src="../images/andrew-neel-cckf4TsHAuw-unsplash.jpg" alt="Detail" loading="lazy" />
-        <img src="../images/max-andrey-4YWwPsTQfMs-unsplash.jpg" alt="Collection" loading="lazy" />
-        <img src="../images/max-andrey-TlRQin0iwjE-unsplash.jpg" alt="Ready to wear" loading="lazy" />
-        <img src="../images/pexels-ketut-subiyanto-4963433.jpg" alt="Lifestyle" loading="lazy" />
-        <img src="../images/pexels-antoni-shkraba-5264913.jpg" alt="Fashion" loading="lazy" />
-        <img src="../images/IMG_3985.jpeg" alt="Atelier heritage" loading="lazy" />
-        <img src="../images/material-fabric-samples.jpg" alt="Fabric library" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-01.jpg" alt="Gregory Duane client" />
+        <img src="../images/gallery-customer/gallery-02.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-03.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-04.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-05.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-06.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-07.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-08.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-09.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-10.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-11.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-12.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-13.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-14.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-15.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-16.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-17.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-18.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-19.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-20.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-21.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-22.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-23.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-24.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-25.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-26.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-27.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-28.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-29.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-30.png" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-31.png" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-32.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-33.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-34.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-35.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-36.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-37.jpg" alt="Gregory Duane client" loading="lazy" />
+        <img src="../images/gallery-customer/gallery-38.jpg" alt="Gregory Duane client" loading="lazy" />
       </div>
     </div>
   </section>
@@ -191,9 +241,8 @@
         </ul>
         <p class="footer-heading" style="margin-top:32px;">Support</p>
         <ul class="footer-links">
-          <li><a href="https://gregoryduane.com/contact" target="_blank" rel="noopener">Contact</a></li>
-          <li><a href="https://gregoryduane.com/shipping-returns" target="_blank" rel="noopener">Shipping &amp; Returns</a></li>
-          <li><a href="https://gregoryduane.com/purchase-agreement" target="_blank" rel="noopener">Purchase Agreement</a></li>
+          <li><a href="../shipping-returns/">Shipping &amp; Returns</a></li>
+          <li><a href="../purchase-agreement/">Purchase Agreement</a></li>
         </ul>
       </div>
       <div>

@@ -29,7 +29,9 @@
         </button>
         <a href="../gallery/">Gallery</a>
         <a href="../about-us/">About</a>
-        <a href="https://gregoryduane.com/contact" target="_blank" rel="noopener">Contact</a>
+        <button class="nav-trigger" data-panel="mega-support" aria-expanded="false" aria-controls="mega-support">
+          Support <span class="nav-chevron" aria-hidden="true">&#9662;</span>
+        </button>
         <a href="https://www.amazon.com/How-Match-without-being-Matchy-Matchy/dp/B0F93TBL3Z" class="nav-book" target="_blank" rel="noopener">Buy the Book</a>
         <a href="../appointment-form/" class="nav-cta">Book a Consultation</a>
         <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
@@ -63,6 +65,25 @@
             <div class="mega-col-label">Formal</div>
             <a class="mega-link" href="../tuxedos/">Tuxedos</a>
             <p class="mega-sub">Black tie &amp; bridal</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Support Mega Panel -->
+    <div class="mega-panel" id="mega-support" aria-hidden="true">
+      <button class="mega-close" aria-label="Close support menu">&#215;</button>
+      <div class="mega-inner">
+        <div class="mega-grid-support">
+          <div class="mega-col">
+            <div class="mega-col-label">Policies</div>
+            <a class="mega-link" href="../purchase-agreement/">Purchase Agreement</a>
+            <p class="mega-sub">Terms of sale &amp; non-refundable purchase policy</p>
+          </div>
+          <div class="mega-col">
+            <div class="mega-col-label">Delivery</div>
+            <a class="mega-link" href="../shipping-returns/">Shipping &amp; Returns</a>
+            <p class="mega-sub">Delivery timelines &amp; return policy</p>
           </div>
         </div>
       </div>
@@ -111,7 +132,13 @@
       </div>
       <a href="../gallery/">Gallery</a>
       <a href="../about-us/">About</a>
-      <a href="https://gregoryduane.com/contact" target="_blank" rel="noopener">Contact</a>
+      <div class="has-dropdown">
+        <a href="#">Support</a>
+        <ul class="dropdown-menu">
+          <li><a href="../purchase-agreement/">Purchase Agreement</a></li>
+          <li><a href="../shipping-returns/">Shipping &amp; Returns</a></li>
+        </ul>
+      </div>
       <a href="../appointment-form/" class="btn-ghost">Book a Consultation</a>
     </div>
   </nav>
@@ -235,9 +262,8 @@
         </ul>
         <p class="footer-heading" style="margin-top:32px;">Support</p>
         <ul class="footer-links">
-          <li><a href="https://gregoryduane.com/contact" target="_blank" rel="noopener">Contact</a></li>
-          <li><a href="https://gregoryduane.com/shipping-returns" target="_blank" rel="noopener">Shipping &amp; Returns</a></li>
-          <li><a href="https://gregoryduane.com/purchase-agreement" target="_blank" rel="noopener">Purchase Agreement</a></li>
+          <li><a href="../shipping-returns/">Shipping &amp; Returns</a></li>
+          <li><a href="../purchase-agreement/">Purchase Agreement</a></li>
         </ul>
       </div>
       <div>

@@ -215,6 +215,12 @@ body {
   gap: 0;
   max-width: 480px;
 }
+.mega-grid-support {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+  max-width: 480px;
+}
 .mega-col {
   padding-right: 32px;
   border-right: 1px solid var(--outline);
