@@ -450,6 +450,9 @@ body {
   object-fit: cover;
   object-position: center top;
 }
+.page-hero--dark {
+  background: var(--black);
+}
 .page-hero-overlay {
   position: absolute;
   inset: 0;
